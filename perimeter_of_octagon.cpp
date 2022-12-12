@@ -26,7 +26,7 @@ int main() {
     int perimeter;
 
     // Input
-    std::cout << "Enter the length of one of the pentagons sides (cm): ";
+    std::cout << "Enter the length of one of the octagons sides (cm): ";
     std::cin >> length_as_string;
 
     try {
