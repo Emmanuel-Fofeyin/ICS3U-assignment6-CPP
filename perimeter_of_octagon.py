@@ -4,10 +4,10 @@
 # This program finds the perimeter of a octagon
 
 
-def perimeter_calculation(length) -> float:
+def perimeter_calculation(length):
     # This function calculates the perimeter of a pentagon
     if length < 0:
-        perimeter = float(-1)
+        return (-1)
     else:
         perimeter = length * 8
 
