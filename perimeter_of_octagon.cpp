@@ -42,5 +42,5 @@ int main() {
         std::cout << "\nInvalid Input." << std::endl;
     }
 
-    std::cout << "\nDone." << std::endl;
+    std::cout << "\n\nDone." << std::endl;
 }
