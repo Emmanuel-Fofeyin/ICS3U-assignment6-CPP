@@ -32,7 +32,7 @@ int main() {
     try {
         length_as_int = std::stoi(length_as_string);
         // Call function
-        perimeter = PerimeterCalculation(length_as_int);
+        perimeter = perimeter_of_octagon(length_as_int);
         if (perimeter == -1)
             std::cout << "\nPlease enter a positive number.";
         else
